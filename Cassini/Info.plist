@@ -22,6 +22,22 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg</key>
+			<string></string>
+			<key>luther.edu/reason/sized_images/551588/4811a85d604b4d4dac88311903f70864.jpg</key>
+			<string></string>
+			<key>nasa.gov/sites/default/files/saturn_collage.jpg</key>
+			<string></string>
+			<key>nasa.gov/sites/default/files/wave_earth_mosaic_3.jpg</key>
+			<string></string>
+		</dict>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
